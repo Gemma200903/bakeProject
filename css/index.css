@@ -96,3 +96,66 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+.intro__ab1{
+    grid-column: 2 / span 2;
+}
+.intro__bake{
+    grid-column: 1 / span 2;
+}
+.intro__ab4{
+    grid-column: 3 / span 2;
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+.intro__item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+.intro__item h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem ;
+}
+.intro__item p{
+    color: #c1c1c1;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 16px ;
+    line-height: 29px;
+}
+
+.intro .intro__item:first-child{
+    background-color: #4e2a84;
+}
+.intro__text{
+    padding: 0 32px;
+    
+}
+.intro .intro__item:nth-child(3){
+    background-color: #ff0e83;
+}
+.intro .intro__item:nth-child(4){
+background-color: #ed6498;
+}
+.intro .intro__item:nth-child(6){
+    background-color: #836eaa;
+}
+.intro .intro__item:nth-child(8){
+    background-color: #4e2a84;
+}
+
+/* NUMBER */
+.number{
+    padding: 70px 0;
+}
+.number__content{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
