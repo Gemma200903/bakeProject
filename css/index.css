@@ -158,4 +158,20 @@ background-color: #ed6498;
     width: 70%;
     margin: 0 auto;
     justify-content: space-around;
+    text-align: center;
+}
+
+.number__item p:first-of-type{
+    font-size: 2rem;
+    color: #4e2a84;
+    font-weight: 600;
+}
+.number__item p:last-of-type{
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 24px 0;
+
+
 }
