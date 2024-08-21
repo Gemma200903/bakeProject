@@ -407,5 +407,39 @@ background-color: #ed6498;
 }
 
 /* FEEDBACK */
+.feedback{
+    background-image: url("../image/cc1.jpg");
+    background-size: cover;
+    padding: 70px 0;
+}
+.feedback h2{
+    color: white;
+}
+.feedback__content{
+    width: 75%;
+    margin: 0 auto;
+    border: 3px solid #ff0e83;
+    background-color: rgba(255, 255, 255, 0.518);
+    text-align: center;
+    padding: 32px;
 
+}
+.feedback__content i{
+    font-size: 1.3rem;
+    color: #2cbeff;
+    padding: 0 18px;
+}
+.feedback__content p{
+    line-height: 30px;
+    letter-spacing: 1.3px;
+}
+.feedback__content .feedback__name{
+    color: white;
+}
+.feedback__content .owl-theme .owl-dots .owl-dot span {
+    background-color: rgba(0, 0, 0, 0.508);
+}
+.feedback__content .owl-theme .owl-dots .owl-dot.active span{
+    background-color: black;
+}
 

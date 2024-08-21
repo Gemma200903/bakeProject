@@ -25,6 +25,10 @@
     <!-- light box css -->
     <link rel="stylesheet" href="./css/lightbox.min.css" />
 
+    <!-- owl css -->
+<link rel="stylesheet" href="./css/owl.carousel.min.css">
+     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <!-- my css -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -371,7 +375,21 @@
     <section class="feedback">
         <h2>TESTIMONIALS</h2>
         <div class="feedback__content">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, facilis mollitia facere nemo cumque doloribus quas quidem repellat laudantium laborum.<i class="fa fa-quote-right"></i></p>
+              <p class="feedback__name">MARK</p>
+            </div>
+            <div class="item">
+              <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, facilis mollitia facere nemo cumque doloribus quas quidem repellat laudantium laborum.<i class="fa fa-quote-right"></i></p>
+              <p class="feedback__name">ALLY</p>
+            </div>
+            <div class="item">
+              <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, facilis mollitia facere nemo cumque doloribus quas quidem repellat laudantium laborum.<i class="fa fa-quote-right"></i></p>
+              <p class="feedback__name">WILLSON</p>
+            </div>
             
+        </div>
         </div>
     </section>
 
@@ -406,5 +424,20 @@
     </script>
     <!-- light box js -->
     <script src="./js/lightbox.min.js"></script>
+    <!--owl carousel js -->
+     <script src="./js/owl.carousel.min.js"></script>
+
+     <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    autoplay: true,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+     </script>
   </body>
 </html>
