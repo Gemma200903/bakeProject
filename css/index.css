@@ -443,3 +443,155 @@ background-color: #ed6498;
     background-color: black;
 }
 
+/* CONTACT */
+.contact{
+    padding: 70px 0;
+
+}
+.contact__form form{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+width: 70%;
+margin: 0 auto;
+gap: 15px 30px;
+}
+.contact__form textarea, .contact__form button{
+    grid-column: 1 / span 2;
+}
+.contact__form input{
+    padding: 12px;
+    border: solid 1px black;
+    border-radius:  5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.contact__form input:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.contact__form textarea{
+    border: solid 1px black;
+    resize: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.contact__form textarea:focus{
+    outline: none;
+}
+.contact__form textarea::placeholder{
+    color: black;
+}
+.contact__form button{
+    border-radius: 0;
+    color: black;
+}
+.contact__form button:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+}
+
+.contact__map iframe{
+    width: 100%;
+    margin-top: 50px;
+}
+.contact__info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact__info i{
+    font-size: 2rem;
+    color: #4e2a84;
+}
+.contact__info p{
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+/* footer */
+footer{
+   padding: 50px 0;
+    background-color: black;
+    color: white;
+
+}
+.footer__main{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.footer__copyRight{
+    text-align: center;
+}
+.footer__item{
+    width: 25%;
+    padding: 0 20px;
+}
+.footer__item h3{
+    color: #ff0e83;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.footer__item p{
+    font-size: 0.8rem;
+    line-height: 28px;
+    padding-bottom: 1rem;
+}
+.footer__socials i{
+    width: 35px;
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    margin-right: 1px;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.footer__socials i:hover{
+    color: #ff0e83;
+    border: #ff0e83 1px solid;
+}
+.footer__time{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__time{
+    border-bottom: 1px dotted white;
+}
+.footer__time p{
+    padding-left: 0;
+    margin: 10px 0;
+}
+.footer__item .footer__sub input{
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+
+}
+.footer__item .footer__sub input:focus{
+    outline: none;
+}
+.footer__item .footer__sub button{
+    padding: 7px 16px;
+    color: black;
+    border:   solid 1px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    transition: all 0.5s;
+   
+
+}
+.footer__item .footer__sub button:hover{
+    border: black;
+}
+.footer__copyRight{
+    padding: 50px 0;
+}
+
+
+
+
