@@ -6,6 +6,7 @@
 }
 html{
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body{
     font-family: "Montserrat", sans-serif;
@@ -44,6 +45,9 @@ h2{
 header{
     background-color: #4e2a84;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .header__content{
     width: 70%;
@@ -590,7 +594,34 @@ footer{
 }
 .footer__copyRight{
     padding: 50px 0;
+    font-size: 0.8rem;
 }
+.footer__copyRight span{
+    color: #ff0e83;
+}
+/* Back To Top */
+.backToTop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    visibility: hidden;
+    opacity: 0;
+}
+.backToTop i{
+    color: #2cbeff;
+    border: 2px solid #2cbeff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 36px;
+
+}
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
 
 
 
